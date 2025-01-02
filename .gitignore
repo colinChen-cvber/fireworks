@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn-lock.json
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# build 目录
+dist/
+build/
+out/
+
+# 后端和测试构建产物
+coverage/
+*.js.map
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# IDE 和编辑器文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.DS_Store
+
+# 本地配置文件
+*.local
+
+# 操作系统生成的文件
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+
+# 其他设置文件
+*.iml
+
+# Mac 特有文件
+.AppleDouble
+.LSOverride
+
+# Windows 特有文件
+Desktop.ini
